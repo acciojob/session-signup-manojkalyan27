@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+form{
+	background-color: #f8f9fa;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 2rem;
+	width: 300px;
+}
+
+label{
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+/*ll the inputs should have the width as 100%, a border of 
+border: 1px solid #ccc, padding of 0.5rem, border-radius of 4px. 
+The bottom margin should be 1rem
+The submit button should have a background-color of #007bff and the 
+text color of white. It should have a padding of 0.75rem 1.5rem, 
+no border and a border-radius of 4px. Text should be bold.  */
+input{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-bottom: 1rem;	
+}
+
+button{
+	background-color: #007bff;
+	color: white;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 4px;
+	font-weight: 900;
+}
